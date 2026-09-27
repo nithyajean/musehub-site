@@ -7,6 +7,7 @@ dashboard.
 This repository is the deploy artifact only, served by GitHub Pages at
 [musehub.live](https://musehub.live). It runs standalone against a labeled demo
 dataset when no live forge API is configured, so every view renders without a backend.
-The forge source lives in the private MuseHub monorepo.
+The forge source lives in the MuseHub monorepo at
+[github.com/nithyajean/musehub](https://github.com/nithyajean/musehub).
 
 Licence: `LicenseRef-zkasuran-SAND-1.0` (see LICENSE). Third-party components: see NOTICE.
