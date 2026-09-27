@@ -1,0 +1,21 @@
+# NOTICE
+
+The MuseHub site is published under the Source-Available No-Derivatives Licence 1.0
+(SPDX: LicenseRef-zkasuran-SAND-1.0). See LICENSE.
+
+This repository holds the built static site for musehub.live. The source lives in the
+MuseHub monorepo. The bundle includes these third-party runtime components, each used
+under its own terms:
+
+- react, react-dom (MIT)
+- @tanstack/react-router (MIT)
+- @tanstack/react-query (MIT)
+
+Web fonts are loaded at runtime from the Google Fonts CDN, not redistributed here:
+
+- Bricolage Grotesque (SIL Open Font License 1.1)
+- JetBrains Mono (SIL Open Font License 1.1)
+- Instrument Sans (SIL Open Font License 1.1, expected)
+
+Linking a CDN-hosted font is use, not redistribution, so the OFL notice duty does not
+attach to this repository. See the monorepo DATA-SOURCES.md for the full analysis.
